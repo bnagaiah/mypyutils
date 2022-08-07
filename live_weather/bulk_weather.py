@@ -7,6 +7,7 @@ import collections
 
 def getall(sorter):
     cities = ['chennai,in', 'bangalore,in', 'coimbatore,in', 'delhi,in', 'mumbai,in']
+    #cities = ['Austin,us', 'Dallas,us', 'New york,us', 'Denver,us', 'Chicago,us']
     data = {}
     for city in cities:
       f = io.StringIO()
